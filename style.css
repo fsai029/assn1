@@ -1,0 +1,40 @@
+/* Custom CSS for active link */
+.navbar-nav .nav-item.active a {
+    font-weight: bold;
+}
+
+/* Custom CSS for cards */
+.card {
+    transition: transform 0.2s;
+    height: 100%; /* Set card height to 100% */
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Custom CSS for anime title */
+.anime-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.anime-title h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Flexbox to make cards same height */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-text {
+    flex-grow: 1;
+}
